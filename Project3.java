@@ -82,7 +82,7 @@ public class Project3 {
 			GDPPerCapita = Double.parseDouble(obj[4]) / Long.parseLong(obj[3]);
 			
 				// only push countries who have GDP Per Capita that fall within the previous parameters of fair, good, and very good
-				if(GDPPerCapita < 5000) {
+				if(1000 < GDPPerCapita < 5000) {
 					stack.push(insCountry);
 				}
 				else if(GDPPerCapita < 20000) {
