@@ -59,7 +59,7 @@ public class Project3 {
 	private static void readFile() throws NumberFormatException, IOException {
 		Scanner fileScan = new Scanner(System.in);
 		String fileName;
-		System.out.println("COP 3538 Project 3 - Xudong Liu\n\nLinked Lists\nEnter the file:");
+		System.out.println("COP 3538 Project 3\n\nLinked Lists\nEnter the file:");
 		fileName = fileScan.next();
 		
 		System.out.println("\n");
